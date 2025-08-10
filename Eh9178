@@ -1,0 +1,47 @@
+local msg = Instance.new("Message",workspace)
+msg.Text = "欢迎使用全网最强脚本"
+wait(2)
+msg:Destroy()
+
+msg = Instance.new("Message",workspace)
+msg.Text = "作者：Eh3662"
+wait(2)
+msg:Destroy()
+
+msg = Instance.new("Message",workspace)
+msg.Text = "9178"
+wait(1.8)
+msg:Destroy()
+
+msg = Instance.new("Message",workspace)
+msg.Text = "Q群：359289464，不加群就想用，你鸡巴是不是很大"
+wait(3.5)
+msg:Destroy()
+
+msg = Instance.new("Message",workspace)
+msg.Text = "你被骗了"
+wait(2)
+msg:Destroy()
+
+msg = Instance.new("Message",workspace)
+msg.Text = "这是我弄的假脚本，别担心，我确实弄了几个通用脚本"
+wait(4.5)
+msg:Destroy()
+
+msg = Instance.new("Message",workspace)
+msg.Text = "加载中……"
+wait(5)
+msg:Destroy()
+
+local sound = Instance.new("Sound")
+sound.SoundId = "rbxassetid://7851649484"
+sound.Volume = 1
+sound.Looped = true
+sound.Parent = workspace
+
+msg = Instance.new("Message",workspace)
+msg.Text = "加载失败，正在启动自毁系统❗️❗️❗️"
+sound:Play()
+wait(1)
+
+while true do end
